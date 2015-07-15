@@ -2,7 +2,7 @@
 
     // Aha! By using a hashing function, the password remains secret!
     if (superSecretHashingFunction($_GET['q']) == 1391) {
-        print 'Good job! The answer is : ' . getenv('RIDDLE_3_ANSWER');
+        print 'Good job! The answer is: ' . getenv('RIDDLE_3_ANSWER');
     } else {
         print 'Nope.';
     }
